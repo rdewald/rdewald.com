@@ -1,6 +1,7 @@
 [build]
-  command = "wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.40/quarto-1.6.40-linux-amd64.deb && dpkg -x quarto-1.6.40-linux-amd64.deb . && ./opt/quarto/bin/quarto render"
+  command = """
+    wget https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.40/quarto-1.6.40-linux-amd64.deb -P /tmp && \
+    dpkg -x /tmp/quarto-1.6.40-linux-amd64.deb /tmp/quarto && \
+    /tmp/quarto/opt/quarto/bin/quarto render
+  """
   publish = "_site"
-
-[build.environment]
-  NODE_VERSION = "20"
