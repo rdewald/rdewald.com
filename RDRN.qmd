@@ -1,0 +1,7 @@
+---
+title: "RDRN"
+format: html
+---
+
+Richard DeWald consults professionally as a clinical informaticist and nurse
+case manager.

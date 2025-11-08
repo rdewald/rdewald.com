@@ -2,4 +2,4 @@
 title: "About"
 ---
 
-About this site
+This website serves as an Internet point of presence for Richard DeWald.

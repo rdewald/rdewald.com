@@ -1,7 +1,17 @@
 ---
-title: "website"
+title: "rdewald.com"
 ---
 
-This is a Quarto website.
+Welcome to the website for [**Richard DeWald RN BSN**](RDRN.html), specialist in end-of-life 
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+* clinical informatics
+* data analysis
+* nursing case management.
+* [GitHub](https://github.com/rdewald)
+
+<hr>
+
+...and for **Richard DeWald** (aka Dick, Uncle Richard, D5 of D) allegedly the *rdewald* account-owner at various Internet locales like this one.
+
+* [BlueSky](https://bsky.app/profile/rdewald.substack.com)
+* [Substack](https://rdewald.substack.com/)
