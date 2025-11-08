@@ -5,10 +5,8 @@ website:
   title: "rdewald.com"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - RDRN.qmd
-
+      - href: RDRN.qmd
+        text: RDRN
 format:
   html:
     theme:
