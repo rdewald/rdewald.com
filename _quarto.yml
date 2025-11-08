@@ -2,11 +2,15 @@ project:
   type: website
 
 website:
-  title: "rdewald.com"
+  title: "RDeWald.com"
   navbar:
     left:
-      - href: RDRN.qmd
-        text: RDRN
+      - href: https://bsky.app/profile/rdewald.substack.com
+        text: BlueSky
+      - href: https://github.com/rdewald
+        text: GitHub
+      - href: https://rdewald.substack.com/
+        text: Substack
 format:
   html:
     theme:
@@ -14,3 +18,4 @@ format:
       - brand
     css: styles.css
     toc: true
+    page-layout: custom

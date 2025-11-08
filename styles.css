@@ -1,1 +1,27 @@
 /* css styles */
+
+/* Left-align content with minimal padding for readability */
+html,
+body {
+  margin: 10 !important;
+  padding: 10 !important;
+}
+
+#quarto-content,
+.quarto-container,
+main.content,
+.page-columns,
+.column-page,
+.column-body,
+.container,
+.container-fluid,
+article,
+#quarto-margin-sidebar,
+.content-container,
+#quarto-document-content {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  max-width: 100ch !important;
+}
