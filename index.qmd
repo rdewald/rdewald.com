@@ -1,7 +1,7 @@
 ---
-title: "rdewald.com"
+title: "RDeWald.com"
 ---
 
-Welcome to the website for **Richard DeWald RN BSN**, specialist in end-of-life clinical informatics, data analysis, and nursing case management.
+Welcome to the website for **Richard DeWald RN BSN**, specialist in end-of-life clinical informatics and medically-complex healthcare management.
 
 <hr>
