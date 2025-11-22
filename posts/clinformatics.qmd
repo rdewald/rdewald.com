@@ -1,6 +1,6 @@
 ---
 title: "What is Clinical Informatics? What Makes It End-of-Life?"
-date: 2025-11-22
+date: last-modified
 description: ""
 ---
 

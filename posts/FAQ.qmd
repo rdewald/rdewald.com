@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-date: 2025-11-22
+date: last-modified
 description: ""
 ---
 

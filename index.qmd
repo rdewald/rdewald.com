@@ -2,11 +2,11 @@
 title: "RDeWald.com"
 listing:
   contents: posts
-  sort: false
+  sort: "title asc"
   type: table
   fields: [title]
   field-display-names:
-    title: " "
+    title: "Articles"
 ---
 ![banner](img/banner.png)
 
@@ -25,3 +25,4 @@ My last question will always be "are there any concerns we haven't addressed?"
 I don't leave until your answer is "no."
 
 ## Patient/Family Knowedge Base
+
