@@ -1,0 +1,17 @@
+---
+title: "Example Post"
+date: 2025-01-22
+description: "This is an example post to demonstrate the listing feature."
+draft: true
+---
+
+This is an example post. Remove `draft: true` from the frontmatter to publish it, or delete this file entirely.
+
+## Writing Posts
+
+Each post should include frontmatter with:
+
+- `title`: The post title
+- `date`: Publication date (YYYY-MM-DD)
+- `description`: A short summary for the listing
+- `draft: true`: Add this while writing, remove to publish

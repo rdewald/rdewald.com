@@ -1,7 +1,13 @@
 ---
 title: "RDeWald.com"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
 ---
 
 Welcome to the website for **Richard DeWald RN BSN**, specialist in end-of-life clinical informatics and medically-complex healthcare management.
 
 <hr>
+
+## Posts
