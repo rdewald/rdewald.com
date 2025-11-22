@@ -1,6 +1,6 @@
 ---
 title: "Fees"
-date: 2025-01-22
+date: 2025-11-22
 description: "Personal consultation fee schedule"
 ---
 

@@ -1,0 +1,23 @@
+---
+title: "What is Clinical Informatics? What Makes It End-of-Life?"
+date: 2025-11-22
+description: ""
+---
+
+## What is clincial informatics?
+
+In my case, this describes my role as the translator between health care clinicians and information technology workers.  I have worked in health care as a circulating operating room technician, a Pediatric ICU clerk, an emergency room clerk, a Home Health Aide, and as a Registered Nurse in Neonatal ICU, Newborn Nursery, Past-partum, Home Care, and both hospital-based and also home-based hospice care.  I have also served as a nursing educator, both in clincial skills and in coping with necessary interactions with health care technology.
+
+I am also a Linux System administrator, a PC hardware hobbyist, a statistical software coder (R), a web designer, and a software engineer for full-stack Continuous Integration and Continuous Deployment health-care data pipelines.
+
+I speak both languages.  I help nurses make sense to IT people.  I help IT people make sense to nurses.
+
+In my consultancy, this fluency helps me share, retrieve, and use information in electronic medical record systems.  I know how data flows between systems.  I know which systems need which data.  
+
+Additionally, I am a student and user of [Open Evidence](https://openevidence.com), a technical application of AI arising from the collaboration of the New England Journal of Medicine, The Journal of The American Medical Association, the Comprehensive Cancer Care Network and the Mayo Clinic.  I use it extenisively in managing my own care.  The technology is not yet ready for users without significant knowledge domain expertise.  I offer that expertise.
+
+## What makes your variety end-of-life?
+
+I assumed my role as a clinical informaticist late in my career, when I was working in hospice care. Because of that, and because of a general dearth of technical interest in this niche, I have sought to better understand and wisely use the data of the dying for two decades.  As health care becomes digitized, this experience is particularly useful to comprehensive multi-specialist care planning for those living at home. 
+
+I know which apps you need on your phone.
