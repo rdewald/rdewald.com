@@ -9,8 +9,16 @@ listing:
     title: " "
 ---
 
-Welcome to the website for **Richard DeWald RN BSN**, specialist in end-of-life clinical informatics and medically-complex healthcare management.
+Welcome to the website of Richard DeWald RN BSN, specialist in end-of-life clinical informatics and medically complex healthcare management.
 
-Please find below a list of freely available resources for understanding what I do.
+In the late stages of my career, I'm committed to sharing what I've learned with those who need it most. I bring together decades of home-based nursing experience with technical expertise as a software engineer to help patients and families navigate medically complex home care—combining the tried-and-true empathy and compassion of hands-on nursing with cutting-edge artificial intelligence tools when appropriate and useful. 
 
-## Knowedge Base
+I am especially useful helping patients cared for by multiple medical providers from different specialties. I orchestrate their separate plans into a sane, evidence-based, whole which is understandable to all.
+
+My last question will always be "are there any concerns we haven't addressed?" I don't leave until your answer is "no."
+
+I have always believed that if a medical provider can't explain their care-plan to a sixth grader they don't understand it themselves.  My role isn't to tell you what to do, my role is to explain what can be done and which choices are good ideas.  If you're frustrated with being told a lot of things by medical providers and understanding very little of it, I will help.  I know the magic words to get answers from your doctors.
+
+I serve families in two ways: by this freely available website and through personalized in-home and virtual consultations.
+
+## Patient/Family Knowedge Base
