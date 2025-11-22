@@ -1,17 +1,12 @@
 ---
-title: "Example Post"
+title: "FAQ"
 date: 2025-01-22
-description: "This is an example post to demonstrate the listing feature."
+description: "-----"
 draft: true
 ---
 
-This is an example post. Remove `draft: true` from the frontmatter to publish it, or delete this file entirely.
+# Frequently Asked Questions.
 
-## Writing Posts
+Q: Is this free?
 
-Each post should include frontmatter with:
-
-- `title`: The post title
-- `date`: Publication date (YYYY-MM-DD)
-- `description`: A short summary for the listing
-- `draft: true`: Add this while writing, remove to publish
+Yes.  I am available for consultation with patients and families facing medically-complex terminal illness they want to manage at home. This information is available to assist those contemplating my help, who can't afford to hire any private case manager, and for those who are skilled in managing their care in traditional care models (cure disease, prolong life) who desire, owing the life-limiting consitions, a comfortable, autonomous, self-determined life closure.
