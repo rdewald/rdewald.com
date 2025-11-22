@@ -1,0 +1,12 @@
+---
+title: "Fees"
+date: 2025-01-22
+description: "Personal consultation fee schedule"
+---
+
+- Initial Consultation Package with care plan: $500
+- Monthly Retainer - Basic Level: $1,200 (low complexity, stable conditions)
+- Monthly Retainer - Standard Level: $2,000 (moderate complexity, multiple providers)
+- Monthly Retainer - Comprehensive Level: $3,500 (high complexity, intensive needs)
+- Transition Support Package: $800 (goals of care discussion, advance directives, formal documentary instructions to providers)
+- Ad-hoc Consult (ask a question, get an answer): $100

@@ -8,7 +8,6 @@ listing:
   field-display-names:
     title: " "
 ---
-
 Welcome to the website of Richard DeWald RN BSN, specialist in end-of-life clinical informatics and medically complex healthcare management. I serve in two ways: by this freely available website and through personalized in-home and virtual consultations.
 
 In the late stages of my career, I'm committed to sharing what I've learned with those who need it most. I bring together decades of home-based nursing experience with technical expertise as a clicinal informaticist to help patients and families navigate medically complex home care. I combine the tried-and-true empathy and compassion of hands-on nursing with the judicious use cutting-edge artificial intelligence tools to explore care options. 

@@ -1,12 +1,20 @@
-/* css styles */
+/* css styles - optimized for older readers */
 
-/* Left-align content with minimal padding for readability */
-html,
-body {
-  margin: 10 !important;
-  padding: 10 !important;
+/* Base typography for readability */
+html {
+  font-size: 24px;
 }
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  color: #1a1a1a;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Comfortable line length for easier eye tracking */
 #quarto-content,
 .quarto-container,
 main.content,
@@ -23,5 +31,57 @@ article,
   margin-right: 0 !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
-  max-width: 100ch !important;
+  max-width: 1024px !important;
+}
+
+/* Headings - clear hierarchy */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+}
+
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.25rem; }
+
+/* Paragraphs - generous spacing */
+p {
+  margin-bottom: 1em;
+}
+
+/* Lists - comfortable spacing */
+ul, ol {
+  margin-bottom: 1em;
+}
+
+li {
+  margin-bottom: 0.5em;
+}
+
+/* Links - clearly distinguishable */
+a {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+a:hover, a:focus {
+  color: #003d7a;
+  text-decoration: underline;
+}
+
+/* Tables - clean and readable */
+table {
+  font-size: 1rem;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.75em 1em;
+}
+
+/* Ensure good contrast on listing tables */
+.quarto-listing-table a {
+  font-size: 1.1rem;
 }
