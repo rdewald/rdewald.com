@@ -1,31 +1,34 @@
 #!/usr/bin/Rscript
 library(blastula)
-library(rmarkdown)
+library(here)
 library(yaml)
 
-# Get the blog post file from command line argument
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) == 0) {
-  stop("Usage: Rscript send-blog-post.R path/to/post.qmd")
+  stop("Usage: Rscript rant.R path/to/post.qmd")
 }
 
 blog_post <- args[1]
-if (!file.exists(blog_post)) {
-  stop("Blog post file not found: ", blog_post)
-}
-
-# Read the YAML frontmatter to get metadata
 yaml_content <- rmarkdown::yaml_front_matter(blog_post)
 
-# Render the qmd/Rmd using blastula's render_email function
-email <- render_email(blog_post)
+# Read content, skip YAML
+content <- readLines(blog_post)
+yaml_end <- which(content == "---")[2]
+body_lines <- content[(yaml_end + 1):length(content)]
 
-recipients <- c(
-  "rdewald@gmail.com",
-  "rdewald@rdewald.com"
+# Remove the embedded image div, replace with link
+body_text <- paste(body_lines, collapse = "\n")
+body_text <- gsub('<div.*?</div>', '[View the x-ray image](https://rdewald.com/img/3views.jpg)\n\n', body_text)
+
+# Create email with full text
+email <- compose_email(
+  body = md(body_text)
 )
 
-# ProtonMail SMTP configuration
+cat("Email size:", nchar(email$html_str), "bytes\n")
+
+source(here('rantees.R'))
+
 smtp_user <- Sys.getenv("PROTONMAIL_USER")
 smtp_from <- Sys.getenv("PROTONMAIL_FROM", smtp_user)
 
@@ -37,12 +40,11 @@ smtp_settings <- creds_envvar(
   use_ssl = FALSE
 )
 
-# Send it
 smtp_send(
   email,
   to = recipients,
   from = smtp_from,
-  subject = yaml_content$title %||% "update",
+  subject = yaml_content$title,
   credentials = smtp_settings
 )
 
