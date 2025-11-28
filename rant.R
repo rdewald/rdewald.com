@@ -11,41 +11,47 @@ if (length(args) == 0) {
 blog_post <- args[1]
 yaml_content <- rmarkdown::yaml_front_matter(blog_post)
 
-# Read content, skip YAML
-content <- readLines(blog_post)
-yaml_end <- which(content == "---")[2]
-body_lines <- content[(yaml_end + 1):length(content)]
+system(paste("quarto render", blog_post, "--to html --quiet"))
 
-# Remove the embedded image div, replace with link
-body_text <- paste(body_lines, collapse = "\n")
-body_text <- gsub('<div.*?</div>', '[View the x-ray image](https://rdewald.com/img/3views.jpg)\n\n', body_text)
+html_file <- sub("^blog/", "_site/blog/", sub("\\.qmd$", ".html", blog_post))
+html_content <- paste(readLines(html_file, warn = FALSE), collapse = "\n")
 
-# Create email with full text
-email <- compose_email(
-  body = md(body_text)
+html_content <- sub(".*?(<img|<p)", "\\1", html_content)
+html_content <- gsub('src="../img/', 'src="https://rdewald.com/img/', html_content)
+html_content <- gsub('src="img/', 'src="https://rdewald.com/img/', html_content)
+
+email_html <- paste0(
+  '<!DOCTYPE html>',
+  '<html><head><meta charset="utf-8"></head>',
+  '<body style="font-family: Georgia, serif; line-height: 1.6; max-width: 650px; margin: 20px auto; padding: 0 20px;">',
+  '<h1>', yaml_content$title, '</h1>',
+  '<p style="color: #666;"><em>', yaml_content$author, ' • ', yaml_content$date, '</em></p>',
+  html_content,
+  '</body></html>'
 )
 
-cat("Email size:", nchar(email$html_str), "bytes\n")
+email <- list(
+  html_str = email_html,
+  html_html = htmltools::HTML(email_html)
+)
+class(email) <- c("blastula_message", "email_message")
+
+cat("Email size:", nchar(email_html), "bytes\n")
 
 source(here('rantees.R'))
-
-smtp_user <- Sys.getenv("PROTONMAIL_USER")
-smtp_from <- Sys.getenv("PROTONMAIL_FROM", smtp_user)
-
-smtp_settings <- creds_envvar(
-  user = smtp_user,
-  pass_envvar = "PROTONMAIL_PASSWORD",
-  host = Sys.getenv("PROTONMAIL_HOST"),
-  port = as.integer(Sys.getenv("PROTONMAIL_PORT")),
-  use_ssl = FALSE
-)
 
 smtp_send(
   email,
   to = recipients,
-  from = smtp_from,
+  from = Sys.getenv("PROTONMAIL_FROM"),
   subject = yaml_content$title,
-  credentials = smtp_settings
+  credentials = creds_envvar(
+    user = Sys.getenv("PROTONMAIL_USER"),
+    pass_envvar = "PROTONMAIL_PASSWORD",
+    host = Sys.getenv("PROTONMAIL_HOST"),
+    port = as.integer(Sys.getenv("PROTONMAIL_PORT")),
+    use_ssl = FALSE
+  )
 )
 
-cat("Blog post sent to", length(recipients), "recipients\n")
+cat("Sent\n")

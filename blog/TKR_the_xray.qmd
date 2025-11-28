@@ -4,8 +4,15 @@ author: "Richard DeWald"
 description: "everybody knees somebody some time"
 date: "November 28, 2025"
 categories: [self-inquiry, nursing]
+format:
+  html:
+    minimal: true
+    standalone: false
+    self-contained: false
+    embed-resources: false
 ---
-<img src="../img/3views.jpg" alt="This is when I knew" style="max-width: 100%;">
+
+<img src="https://rdewald.com/img/3views.jpg">
 
 From time to time, I recognize instantly when I have taken the first step on a journey.  Or, in this case, the first limp.
 
