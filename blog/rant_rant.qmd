@@ -4,7 +4,6 @@ author: "Richard DeWald"
 description: "Substack is choking the Beat in me."
 date: "Friday Nov 28, 2025"
 categories: [rants, tech]
-draft: true
 ---
 <div style="font-size: small; color: gray; text-align: center; margin-bottom: 1em;">
 ![My foot, some of my toes, getting carved for comfort](../img/bone_saw.jpg)
