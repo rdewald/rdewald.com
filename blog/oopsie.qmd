@@ -1,0 +1,21 @@
+---
+title: "oopsie daisy"
+author: "Richard DeWald"
+description: "missed a detail"
+date: "November 28 , 2025"
+categories: [rants, tech]
+format:
+  html:
+    minimal: true
+    standalone: false
+    self-contained: false
+    embed-resources: false
+---
+
+Apologies to my paid subscribers (and highly-engaged free subscribers) -- your email addresses were in the wrong field of "The x-ray" email I just sent.  I've fixed the issue, and you will be receiving this and future emails with addresses in the BCC field like this one.
+
+Sorry. Technical oversight. I wish I had someone else to blame.
+
+I know almost all of you, we're a nice group of people, no real risk for that, I just wish I had been more careful.
+
+Stay safe out there.

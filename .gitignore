@@ -5,6 +5,7 @@
 .RData
 .Ruserdata
 *.Rproj
-rantees.R
+xforms/paid2rant.R
+xforms/high_engagement.R
 
 **/*.quarto_ipynb

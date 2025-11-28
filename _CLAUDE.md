@@ -113,19 +113,23 @@ description: "Brief description"
 
 ### Adding Blog Posts (blog/)
 
-1. Create a new `.qmd` file in `blog/`
+1. Copy `blog/_template.qmd` or create a new `.qmd` file in `blog/`
 2. Add YAML frontmatter:
 ```yaml
 ---
 title: "Post Title"
-date: last-modified
+date: "date here"  # or use last-modified
 description: "Brief description for listing and email"
-categories: [category1, category2]
+categories: [rants, nursing, tech]
 author: "Richard DeWald"
+draft: true  # Remove this line when ready to publish
 ---
 ```
 3. Write content - keep it simple for email compatibility
-4. File will automatically appear in blog.qmd card listing
+4. Remove `draft: true` when ready to publish
+5. File will automatically appear in blog.qmd card listing (unless draft)
+
+**Important**: Files starting with `_` (like `_template.qmd`, `_README.md`) are ignored by Quarto and won't render
 
 ### Date Handling
 
@@ -136,33 +140,80 @@ Use Quarto's built-in date keywords (no R required):
 
 ## Sending Blog Posts via Email
 
-### Using rant.R
+### Using rant.R (The Hack)
 
-The `rant.R` script sends blog posts to subscribers via blastula:
+**Note**: `rant.R` is a hack that bypasses blastula's normal rendering to get full control over email HTML.
 
 ```bash
 Rscript rant.R blog/your-post.qmd
 ```
 
+### How The Hack Works
+
+1. **Renders with Quarto** (line 14): Uses `system("quarto render ...")` to render the .qmd to HTML in `_site/`
+2. **Strips Quarto wrapper** (line 19): Regex removes everything before first `<img>` or `<p>` tag (removes navbar, headers, etc.)
+3. **Fixes image paths** (lines 20-21): Converts relative paths to absolute URLs (`../img/` → `https://rdewald.com/img/`)
+4. **Manually builds email HTML** (lines 23-31): String concatenation to create custom HTML structure with title, author, date
+5. **Fakes blastula object** (lines 33-37): Manually creates a `blastula_message` object by setting the class - completely bypassing blastula's API
+6. **Loads recipients** (line 41): Sources `rantees.R` (gitignored file containing `recipients` vector)
+7. **Sends via SMTP** (lines 43-55): Uses blastula's `smtp_send()` with the fake message object
+
+### Why It's A Hack
+
+- Bypasses `blastula::render_email()` entirely
+- Uses regex to strip HTML instead of proper parsing
+- Hardcoded path assumptions (`_site/blog/`)
+- Manual HTML string concatenation
+- Creates fake blastula objects by forcing class attributes
+- Fragile: breaks if Quarto changes its HTML structure
+
 ### Configuration
 
-Email credentials are set via environment variables:
+Email credentials via environment variables:
 - `PROTONMAIL_USER` - SMTP username
 - `PROTONMAIL_PASSWORD` - SMTP password
-- `PROTONMAIL_FROM` - From address (defaults to PROTONMAIL_USER)
+- `PROTONMAIL_FROM` - From address
 - `PROTONMAIL_HOST` - SMTP host
 - `PROTONMAIL_PORT` - SMTP port
 
-### How it Works
-
-1. Reads the `.qmd` file's YAML frontmatter
-2. Renders the file using `blastula::render_email()`
-3. Sends via SMTP to configured recipients
-4. Uses post title as email subject
-
 ### Recipients
 
-Edit the `recipients` vector in `rant.R` to manage the mailing list.
+Multiple mailing lists available (all gitignored for privacy):
+
+- **`rantees.R`** - Main mailing list (root directory)
+- **`xforms/paid2rant.R`** - Non-free subscribers + Upgrade candidates (38 subscribers)
+  - Non-free (Paid + Comp + Author): 29
+  - Upgrade candidates (Free but top 25 engaged): 9
+- **`xforms/high_engagement.R`** - Top 25 by engagement score
+
+To use a specific list, modify `rant.R` line 41:
+```r
+source(here('xforms/paid2rant.R'))      # For paid/comp + upgrade candidates
+source(here('xforms/high_engagement.R'))  # For top 25 engaged subscribers
+```
+
+### Creating Mailing Lists from Substack Data
+
+Subscriber data from Substack exports is in `xforms/subs-nov2025.csv` (97 total subscribers).
+
+To regenerate filtered lists from fresh Substack export:
+```bash
+Rscript xforms/create_lists.R
+```
+
+This script creates (in `xforms/` directory):
+- `paid2rant.R` - Non-free subscribers + Upgrade candidates (38 total)
+  - Non-free (Type: Paid, Comp, Author): 29
+  - Upgrade candidates (Free but top 25 engaged): 9
+- `high_engagement.R` - Top 25 subscribers by engagement score
+
+Engagement scoring: `opens + (clicks × 2) + (comments × 3) + (shares × 2)`
+
+Subscriber breakdown:
+- Free: 68 (70%)
+- Paid: 8 (8%)
+- Comp: 20 (21%)
+- Author: 1 (you)
 
 ## Exporting Blog Posts to Substack
 
@@ -205,4 +256,7 @@ Rscript substack/subport.R blog/your-post.qmd
 - R project files (`.Rproj`, `.Rproj.user/`) are present but gitignored
 - The `.quarto/` cache directory is gitignored and auto-generated
 - Files starting with `_` (like this file) are not rendered to the website
+- Files with `draft: true` in YAML frontmatter are excluded from listings and builds
+- `rantees.R` contains email recipient list (gitignored for privacy)
 - No dynamic R code executes during website builds - all content is static
+- Blog posts with inline `<div>` styling will render on website but may need adjustment for email/Substack export

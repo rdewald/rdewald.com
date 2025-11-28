@@ -38,11 +38,13 @@ class(email) <- c("blastula_message", "email_message")
 
 cat("Email size:", nchar(email_html), "bytes\n")
 
-source(here('rantees.R'))
+source(here('xforms/paid2rant.R'))
+# source(here('xforms/testing.R'))
 
 smtp_send(
   email,
-  to = recipients,
+  to = "rdewald@pm.me",
+  bcc = recipients,
   from = Sys.getenv("PROTONMAIL_FROM"),
   subject = yaml_content$title,
   credentials = creds_envvar(
