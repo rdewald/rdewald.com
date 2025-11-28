@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "img/**"
 
 website:
   title: "RDeWald.com"
@@ -13,6 +15,7 @@ website:
         text: GitHub
       - href: https://rdewald.substack.com/
         text: Substack
+
 format:
   html:
     theme:
