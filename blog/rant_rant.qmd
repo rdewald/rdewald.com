@@ -1,0 +1,35 @@
+---
+title: "on Ranting"
+author: "Richard DeWald"
+description: "Substack is choking the Beat in me."
+date: "Friday Nov 28, 2025"
+categories: [rants, tech]
+draft: true
+---
+<div style="font-size: small; color: gray; text-align: center; margin-bottom: 1em;">
+![My foot, some of my toes, getting carved for comfort](../img/bone_saw.jpg)
+</div>
+
+I've been on Substack for years. Early adopter. It worked—simple, flexible, fine. But lately, the relentless "content creator" messaging has been sucking the joy out of writing. They want empire-building. I want to talk to my friends.
+
+Let's be clear: I'm not building a media empire, launching a podcast network, or positioning myself for acquisition. I'm just writing stuff down and sharing it with people who might care.
+
+I appreciate the paid subscribers. Not for the money—though it's nice—but because it means you want to read more. Still, Substack's minimum feels high. Remember Slashdot? You paid a twentieth of a penny per pageview. Five bucks, ten thousand views. That model would net me about a quarter of what I make now, but it fits what I'm actually trying to do here.
+
+I want to stay in touch. I don't want to spend the first ten minutes of every conversation catching people up. That's what this is for. Richard's Rants isn't about fitting into anyone's business strategy.
+
+This isn't a rage quit or a cancellation piece. Substack filled a real need, and I'm grateful. But they've caught late-stage capitalism brain—growth at all costs, humanity optional. I'm too old and too stubborn to chase that dream. Like my knees and skiing, some ships have sailed.
+
+But relax—I'm not asking you to do anything.
+
+Here's what happens next. You do nothing:
+
+Paid subscribers: You'll get emails from rdewald@rdewald.com instead. I'll add a tip jar on the site if you want to keep supporting. Keep your Substack sub if you want—no judgment.
+
+Free subscribers: Want rants delivered? Email me at rdewald@rdewald.com.
+
+Substack stays open: Monthly "Rant Rollup" post with links to new posts at [RDeWald.com](https://rdewald.com/blog) with links.
+
+That's it. Keep reading.
+
+Thanks for being here.

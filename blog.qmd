@@ -1,0 +1,18 @@
+---
+title: "Notes from the Field"
+listing:
+  contents: blog
+  sort: "date desc"
+  type: default
+  categories: true
+  fields: [date, title, description, categories]
+  date-format: "MMMM D, YYYY"
+page-layout: article
+---
+
+::: {.blog-intro}
+This is where I write about things I'm thinking about, learning, or just want to share. Less formal than the professional stuff, more like notes from my ongoing work and life. Some of these get sent out as emails to folks who've asked to hear from me.
+
+If something here sparks a question or you want to chat about it, reach out.
+:::
+

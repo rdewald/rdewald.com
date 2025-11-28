@@ -85,3 +85,65 @@ th, td {
 .quarto-listing-table a {
   font-size: 1.1rem;
 }
+
+/* Blog section - more informal styling */
+.blog-intro {
+  background-color: #f8f9fa;
+  border-left: 4px solid #6c757d;
+  padding: 1.5em;
+  margin: 2em 0;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #495057;
+}
+
+/* Blog listing - card style for informal feel */
+#listing-blog .list-item {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+  transition: box-shadow 0.2s ease;
+}
+
+#listing-blog .list-item:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Blog post titles - friendly and approachable */
+#listing-blog .listing-title {
+  font-size: 1.4rem;
+  margin-bottom: 0.5em;
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+#listing-blog .listing-description {
+  color: #6c757d;
+  font-size: 1rem;
+  margin-bottom: 0.75em;
+  line-height: 1.5;
+}
+
+#listing-blog .listing-date {
+  color: #868e96;
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
+/* Blog categories - pill style */
+#listing-blog .listing-categories {
+  margin-top: 0.75em;
+}
+
+#listing-blog .listing-category {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 0.25em 0.75em;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}

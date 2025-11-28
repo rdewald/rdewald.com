@@ -5,6 +5,8 @@ website:
   title: "RDeWald.com"
   navbar:
     left:
+      - href: blog.qmd
+        text: Blog
       - href: https://bsky.app/profile/rdewald.substack.com
         text: BlueSky
       - href: https://github.com/rdewald
