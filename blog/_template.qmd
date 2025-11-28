@@ -4,8 +4,17 @@ author: "Richard DeWald"
 description: "sub-title / blurb here"
 date: "date here"
 categories: [rants, nursing, tech]
+format:
+  html:
+    minimal: true
+    standalone: false
+    self-contained: false
+    embed-resources: false
 draft: true
 ---
+
+<img src="https://rdewald.com/img/path2img.jpg">
+
 
 ## Introduction
 
