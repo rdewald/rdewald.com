@@ -1,2 +1,3 @@
-# Ignore generated HTML fragments (redundant output)
+# Ignore generated output files (redundant)
 *.html
+*.txt

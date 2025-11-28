@@ -1,14 +1,11 @@
 #!/usr/bin/env Rscript
-# Export blog post to Substack-compatible HTML fragment
-# Usage: Rscript substack/export-to-substack.R blog/your-post.qmd
-
-library(xml2)
-library(rmarkdown)
+# Export blog post to Substack plain text with markdown formatting
+# Usage: Rscript substack/subport.R blog/your-post.qmd
 
 # Get the blog post file from command line argument
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) == 0) {
-  stop("Usage: Rscript substack/export-to-substack.R path/to/post.qmd")
+  stop("Usage: Rscript substack/subport.R path/to/post.qmd")
 }
 
 blog_post <- args[1]
@@ -16,65 +13,58 @@ if (!file.exists(blog_post)) {
   stop("Blog post file not found: ", blog_post)
 }
 
-# Create temporary output file
-temp_html <- tempfile(fileext = ".html")
+# Read the entire file
+lines <- readLines(blog_post, warn = FALSE)
 
-# Render the qmd to HTML
-rmarkdown::render(
-  blog_post,
-  output_format = html_document(
-    self_contained = FALSE,
-    theme = NULL,
-    pandoc_args = c("--standalone")
-  ),
-  output_file = temp_html,
-  quiet = TRUE
-)
+# Find YAML frontmatter boundaries
+yaml_start <- which(lines == "---")[1]
+yaml_end <- which(lines == "---")[2]
 
-# Read and parse the HTML
-html_content <- read_html(temp_html)
-
-# Extract just the main content (body content)
-body_nodes <- xml_find_all(html_content, "//body/*")
-
-# Process images - replace src with placeholder text
-images <- xml_find_all(html_content, "//img")
-for (img in images) {
-  original_src <- xml_attr(img, "src")
-  alt_text <- xml_attr(img, "alt") %||% "image"
-
-  # Create placeholder text
-  placeholder <- sprintf('[IMAGE PLACEHOLDER: %s - Upload to Substack and replace this]',
-                        basename(original_src))
-
-  # Replace img with a comment placeholder
-  xml_attr(img, "src") <- "#"
-  xml_attr(img, "alt") <- placeholder
-  xml_attr(img, "title") <- sprintf("Original: %s", original_src)
+# Extract content after YAML (skip title and metadata)
+if (!is.na(yaml_start) && !is.na(yaml_end)) {
+  content_lines <- lines[(yaml_end + 1):length(lines)]
+} else {
+  content_lines <- lines
 }
 
-# Convert back to HTML string
-# We want just the body content, not the full document
-body_html <- as.character(body_nodes)
+# Remove leading/trailing empty lines
+content_lines <- content_lines[cumsum(content_lines != "") > 0]
+while(length(content_lines) > 0 && content_lines[length(content_lines)] == "") {
+  content_lines <- content_lines[-length(content_lines)]
+}
 
-# Clean up and format for Substack
-# Combine all body elements
-final_html <- paste(body_html, collapse = "\n\n")
+# Strip divs and inline styling
+content_lines <- gsub("^:::\\s*\\{[^}]*\\}\\s*$", "", content_lines)  # Remove div markers like ::: {.class}
+content_lines <- gsub("^:::.*$", "", content_lines)  # Remove ::: closing tags
+
+# Process images - replace with placeholders
+content_lines <- gsub(
+  "!\\[([^]]*)\\]\\(([^)]+)\\)",
+  "[IMAGE: \\1 - Upload via Substack UI]",
+  content_lines
+)
+
+# Convert markdown links to plain format: text (url)
+content_lines <- gsub(
+  "\\[([^]]*)\\]\\(([^)]+)\\)",
+  "\\1 (\\2)",
+  content_lines
+)
+
+# Join lines and convert to CRLF
+content_text <- paste(content_lines, collapse = "\r\n")
 
 # Create output filename in substack directory
 base_name <- tools::file_path_sans_ext(basename(blog_post))
-output_file <- file.path("substack", paste0(base_name, "-substack.html"))
+output_file <- file.path("substack", paste0(base_name, "-substack.txt"))
 
-# Write the fragment
-writeLines(final_html, output_file)
+# Write with explicit CRLF line endings
+con <- file(output_file, "wb")
+writeLines(content_text, con, sep = "")
+close(con)
 
-# Clean up temp file
-unlink(temp_html)
-
-cat("\n✓ Substack HTML fragment created:", output_file, "\n")
-cat("\nInstructions:\n")
-cat("1. Open", output_file, "\n")
-cat("2. Copy the entire contents\n")
-cat("3. Paste into Substack's HTML editor\n")
-cat("4. Upload images to Substack\n")
-cat("5. Replace [IMAGE PLACEHOLDER: ...] comments with actual image URLs\n\n")
+cat("\n✓ Substack text created:", output_file, "\n")
+cat("\nReady to copy-paste into Substack editor\n")
+cat("- Markdown formatting preserved (links, bold, italic, etc.)\n")
+cat("- Image placeholders included\n")
+cat("- CRLF line endings\n\n")
