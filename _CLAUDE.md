@@ -12,6 +12,16 @@ The site has two distinct content sections:
 - **Professional knowledge base** (`posts/` directory) - Formal nursing/clinical informatics articles displayed as a table on the homepage
 - **Blog** (`blog/` directory) - Informal personal content with card-style layout, sent via email to subscribers using blastula
 
+### Recent Additions (Nov 2025)
+- **Email distribution system** (`rant.R`) - Sends blog posts via blastula with ProtonMail SMTP
+- **Substack export** (`substack/subport.R`) - Converts blog posts to plain text for Substack composition panel
+- **Mailing list management** (`xforms/`) - Subscriber data analysis and list generation
+  - Non-free subscribers + upgrade candidates (38)
+  - Top 25 engaged subscribers
+  - Engagement scoring: opens + (clicks × 2) + (comments × 3) + (shares × 2)
+- **renv integration** - R package management for reproducible environment
+- **Image deployment** - Added `img/**` resources to _quarto.yml for proper image deployment
+
 ## Build and Development Commands
 
 ### Local Development
@@ -64,6 +74,7 @@ renv::restore()
 ### Configuration Files
 - `_quarto.yml`: Main Quarto configuration
   - Defines project type as website
+  - Resources: Includes `img/**` directory in site builds (added for image deployment)
   - Configures navbar navigation (Blog, BlueSky, GitHub, Substack)
   - Sets HTML theme (cosmo + brand) and custom CSS
   - Disables table of contents by default
@@ -72,7 +83,15 @@ renv::restore()
 ### Content Directories
 - `posts/`: Professional knowledge base articles (table listing on homepage)
 - `blog/`: Informal blog posts (card listing on blog.qmd page)
-- `img/`: Images and assets
+- `img/`: Images and assets (deployed via resources in _quarto.yml)
+- `xforms/`: Data transformations and mailing list management
+  - `subs-*.csv` - Substack subscriber exports (gitignored for privacy)
+  - `create_lists.R` - Script to generate mailing lists from subscriber data
+  - `paid2rant.R` - Generated mailing list (gitignored)
+  - `high_engagement.R` - Generated mailing list (gitignored)
+- `substack/`: Substack export tools
+  - `subport.R` - Export blog posts to Substack-compatible text format
+  - `.gitignore` - Ignores generated output files
 
 ### Styling
 - `styles.css`: Custom CSS styles
@@ -194,7 +213,7 @@ source(here('xforms/high_engagement.R'))  # For top 25 engaged subscribers
 
 ### Creating Mailing Lists from Substack Data
 
-Subscriber data from Substack exports is in `xforms/subs-nov2025.csv` (97 total subscribers).
+Subscriber data from Substack exports goes in `xforms/subs-*.csv` (gitignored for privacy, keep locally only).
 
 To regenerate filtered lists from fresh Substack export:
 ```bash
@@ -257,6 +276,12 @@ Rscript substack/subport.R blog/your-post.qmd
 - The `.quarto/` cache directory is gitignored and auto-generated
 - Files starting with `_` (like this file) are not rendered to the website
 - Files with `draft: true` in YAML frontmatter are excluded from listings and builds
-- `rantees.R` contains email recipient list (gitignored for privacy)
+- Images in `img/` directory are deployed via `resources` directive in _quarto.yml
 - No dynamic R code executes during website builds - all content is static
 - Blog posts with inline `<div>` styling will render on website but may need adjustment for email/Substack export
+
+### Mailing List Management
+- `rantees.R` - Main mailing list (tracked in git)
+- `xforms/paid2rant.R` - Non-free + upgrade candidates (gitignored)
+- `xforms/high_engagement.R` - Top 25 engaged (gitignored)
+- Generated lists are gitignored for privacy; regenerate from `xforms/subs-nov2025.csv` using `xforms/create_lists.R`

@@ -7,5 +7,6 @@
 *.Rproj
 xforms/paid2rant.R
 xforms/high_engagement.R
+xforms/subs-*.csv
 
 **/*.quarto_ipynb
