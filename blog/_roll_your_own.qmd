@@ -1,0 +1,24 @@
+---
+title: "Do not publish"
+author: "Richard DeWald"
+description: "I mean it, this is not a post"
+date: "date anywhere you can find action"
+categories: [do_not_publish]
+format:
+  html:
+    minimal: true
+    standalone: false
+    self-contained: false
+    embed-resources: false
+draft: true
+---
+
+Photo by Elsa Olofsson on Unsplash
+
+The daily posts for Richard’s Rants have migrated to the RDeWald.com/blog.  I discuss the reasons here: 
+
+Roll your own Rants is a monthly roll-up of the activity on RDeWald.com/blog, for my Substack reader’s convenience. 
+
+If you want to receive email copies of the new posts on RDeWald.com/blog as they are published there, email that request to rdewald@rdewald.com. 
+
+It’s free, and worth every penny.
