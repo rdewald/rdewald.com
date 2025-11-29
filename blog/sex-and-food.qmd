@@ -1,0 +1,34 @@
+---
+title: "Title Here"
+author: "Richard DeWald"
+description: "sub-title / blurb here"
+date: "date here"
+categories: [rants, nursing, tech]
+format:
+  html:
+    minimal: true
+    standalone: false
+    self-contained: false
+    embed-resources: false
+draft: true
+---
+
+<img src="https://rdewald.com/img/path2img.jpg">
+
+
+When I moved to Brooklyn in 1999 I was across the street from a small triangular City park, which in addition to being bordered by apartments on my side, was flanked by a diner, Chinese take-out, and a pizza place on another side, with an elevated segment of the Brooklyn-Queens Expressway forming the hypotenuse.  The proximity to the BQE made it unpopular with families with small children, so it mainly was visited by those eating on a bench, the un-housed, and people walking dogs.
+
+There were a lot of pigeons.  As I was a recent arrival from Texas, I was unfamiliar with pigeons, or any kind of bird that would hang comfortably close to humans.  I began to study them. They ultimately weren’t very interesting. Every moment of their lives is oriented to pursuit of food or sex.  Upon reflection, even then, this was as unsatisfying a realization as it was unsurprising.
+
+I suppose I wanted a noble purpose for the pigeon, but perhaps it was already right in front of me.  One of my zen teachers used to say “rabbits are how sunlight becomes protein for foxes.” There wouldn’t be pigeons if pigeons didn’t prioritize eating and breeding.  What could be nobler than chasing food and sex for a pigeon? Would I know?
+
+Natural selection operates for the benefit of DNA, not for the life forms which carry and reproduce it.  Consequently, once the life form reaches sexual maturity, DNA could give a f*ck about improving anything else for it. After we are physically able to reproduce, we’re on our own as far as evolution is concerned. 
+
+Every inborn, uncultivated bias that we have, from what tastes good, to what feels good, to what is rewarding, all boils down to incentivizing sexual reproduction. Other biases require mental effort.  Sexual arousal and interest is built-in.
+
+We build elaborate social contracts around sexual behavior with very high stakes.  One can win in a big way (Sidney Sweeney) or one can lose in a big way (Epstein).  Much depends on the choices one makes navigating those social contracts in pursuit of sex. 
+
+However, as a thought experiment, if you strip everything away from those narratives to an admittedly absurd level of reductionist analysis, beyond conscious choice to inborn bias, there’s a single motive, like with the pigeons—incentivizing reproduction.  
+
+Ends do not justify means, but they can provide insight into the singularity of some forms of power. Sexually powerfully people hold existence itself within their power, or at least they’re messing with it. It isn’t that surprising to me that Sydney Sweeney made a fuss, whether or not she meant to.
+
