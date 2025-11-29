@@ -1,5 +1,4 @@
 ---
-title: "RDeWald.com"
 listing:
   contents: posts
   sort: "title asc"

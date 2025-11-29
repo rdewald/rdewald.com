@@ -1,5 +1,50 @@
 /* css styles - optimized for older readers */
 
+/* Navbar spacing - prevent covering content */
+body {
+  padding-top: 0 !important;
+}
+
+#quarto-header {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Ensure content can scroll to top beneath navbar */
+#quarto-content {
+  position: relative;
+  z-index: 1;
+}
+
+/* Add RDeWald.com to sidebar header */
+.sidebar-header .sidebar-logo-link::before {
+  content: "RDeWald.com";
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6699C2;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+/* Make navbar shorter */
+.navbar {
+  min-height: 40px !important;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+.navbar-brand {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  font-size: 1.1rem !important;
+}
+
+.navbar-nav .nav-link {
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
 /* Base typography for readability */
 html {
   font-size: 24px;
@@ -16,22 +61,22 @@ body {
 
 /* Comfortable line length for easier eye tracking */
 #quarto-content,
-.quarto-container,
 main.content,
 .page-columns,
-.column-page,
 .column-body,
-.container,
-.container-fluid,
-article,
-#quarto-margin-sidebar,
-.content-container,
-#quarto-document-content {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  max-width: 1024px !important;
+article {
+  max-width: 1200px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+/* Ensure blog posts have proper margins */
+.quarto-post {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2em;
+  padding-right: 2em;
 }
 
 /* Headings - clear hierarchy */
@@ -86,7 +131,9 @@ th, td {
   font-size: 1.1rem;
 }
 
-/* Blog section - more informal styling */
+/* Blog Posts - Informal, Personal Styling */
+
+/* Blog intro section */
 .blog-intro {
   background-color: #f8f9fa;
   border-left: 4px solid #6c757d;
@@ -95,6 +142,83 @@ th, td {
   font-size: 1.1rem;
   line-height: 1.6;
   color: #495057;
+}
+
+/* Blog post content styling */
+body[data-quarto-source-path*="blog/"] {
+  background-color: #fafbfc;
+}
+
+body[data-quarto-source-path*="blog/"] #quarto-content,
+body[data-quarto-source-path*="blog/"] main.content,
+body[data-quarto-source-path*="blog/"] article,
+body[data-quarto-source-path*="blog/"] .page-columns {
+  max-width: 1200px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 3em !important;
+  padding-right: 3em !important;
+}
+
+body[data-quarto-source-path*="blog/"] article {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+/* Blog post headers - warmer, more personal */
+body[data-quarto-source-path*="blog/"] h1 {
+  color: #2c3e50;
+  border-bottom: 3px solid #e9ecef;
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+
+body[data-quarto-source-path*="blog/"] h2 {
+  color: #34495e;
+  margin-top: 2em;
+  border-left: 4px solid #3498db;
+  padding-left: 0.75em;
+}
+
+/* Blog post images - rounded and styled */
+body[data-quarto-source-path*="blog/"] img {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin: 1.5em 0;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Blog post links - softer blue */
+body[data-quarto-source-path*="blog/"] a {
+  color: #3498db;
+  text-decoration: none;
+  border-bottom: 2px solid #ecf0f1;
+  transition: border-color 0.2s ease;
+}
+
+body[data-quarto-source-path*="blog/"] a:hover {
+  border-bottom-color: #3498db;
+}
+
+/* Blog post blockquotes - distinctive style */
+body[data-quarto-source-path*="blog/"] blockquote {
+  border-left: 4px solid #95a5a6;
+  background-color: #f8f9fa;
+  padding: 1em 1.5em;
+  margin: 1.5em 0;
+  font-style: italic;
+  color: #5a6c7d;
+}
+
+/* Blog post metadata (date, author) - subtle */
+body[data-quarto-source-path*="blog/"] .quarto-title-meta {
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ecf0f1;
+  margin-bottom: 2em;
 }
 
 /* Blog listing - card style for informal feel */

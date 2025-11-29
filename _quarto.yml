@@ -3,24 +3,76 @@ project:
   resources:
     - "img/**"
 
+lang: en
+
 website:
   title: "RDeWald.com"
+  site-url: https://rdewald.com
+  open-graph: true
+  search:
+    location: sidebar
+    type: overlay
   navbar:
+    background: "#7BA4D4"
+    foreground: white
+    title: false
     left:
-      - href: blog.qmd
-        text: Blog
-      - href: https://bsky.app/profile/rdewald.substack.com
-        text: BlueSky
-      - href: https://github.com/rdewald
-        text: GitHub
-      - href: https://rdewald.substack.com/
-        text: Substack
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - text: "About"
+        href: about.qmd
+  sidebar:
+    style: docked
+    collapse-level: 1
+    background: light
+    title: "RDeWald.com"
+    tools:
+      - icon: github
+        href: https://github.com/rdewald
+        text: "GitHub profile"
+      - icon: rss
+        href: https://rdewald.substack.com/
+        text: "Substack"
+    contents:
+      - text: "Home"
+        href: index.qmd
+      - text: "Blog"
+        href: blog.qmd
+      - section: "Professional Articles"
+        contents:
+          - text: "Clinical Informatics"
+            href: posts/clinformatics.qmd
+          - text: "FAQ"
+            href: posts/FAQ.qmd
+          - text: "Fees"
+            href: posts/fees.qmd
+      - text: "About"
+        href: about.qmd
+  page-footer:
+    left: |
+      <br>
+      Richard DeWald, PhD, RN<br>
+      Clinical Informatics & Healthcare Technology<br>
+    center: |
+      <br>
+      Contact: rdewald@rdewald.com<br>
+    right: |
+      <br>
+      Copyright © 2025 Richard DeWald<br>
+      This website was created with
+      [![](/img/banner.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
 
 format:
   html:
+    date-format: "MMM YYYY"
     theme:
-      - cosmo
-      - brand
+      light:
+        - flatly
     css: styles.css
     toc: false
-    page-layout: custom
+    page-layout: article
+
+execute:
+  freeze: auto
