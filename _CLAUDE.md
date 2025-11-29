@@ -13,6 +13,27 @@ The site has two distinct content sections:
 - **Blog** (`blog/` directory) - Informal personal content with card-style layout, sent via email to subscribers using blastula
 
 ### Recent Additions (Nov 2025)
+
+#### Comprehensive Redesign (kapitan branch, merged to main)
+- **Design inspiration** - Site redesigned based on kapitan.net structure
+- **Sidebar navigation** - Docked left sidebar with collapsible sections
+  - "RDewald.com" branding in Carolina blue (#6699C2)
+  - Home, Blog, Professional Articles (collapsible), About navigation
+  - Social media tools (GitHub, Substack) with icons
+  - Search functionality with overlay
+- **Carolina blue color scheme** - UNC Athletic Department blue (#7BA4D4)
+  - Shortened navbar (40px height) for compact appearance
+  - Three-column footer with contact info and copyright
+- **Theme change** - Switched from cosmo+brand to flatly theme
+- **Content width** - Increased from 1024px to 1200px for better laptop viewing
+- **Blog post styling** (`blog/_metadata.yml`)
+  - Georgia serif font at 18px for softer, more readable feel
+  - White content cards on light gray background (#fafbfc)
+  - Clickable fake navbar with real hyperlinks for navigation
+  - Maintains `minimal: true` for email compatibility with rant.R
+  - Custom navbar quote: Bukowski quote on right side
+
+#### Content Management
 - **Preprocessing scripts** (`preprocessing/`) - Bash scripts for image processing and banner generation
   - `resize_image.sh` - Resize/compress images to max 800px wide using ImageMagick
   - `create_footer_banner.sh` - Generate footer banners for monthly Substack roll-up posts
@@ -81,11 +102,40 @@ renv::restore()
 ### Configuration Files
 - `_quarto.yml`: Main Quarto configuration
   - Defines project type as website
-  - Resources: Includes `img/**` directory in site builds (added for image deployment)
-  - Configures navbar navigation (Blog, BlueSky, GitHub, Substack)
-  - Sets HTML theme (cosmo + brand) and custom CSS
-  - Disables table of contents by default
-  - Uses custom page layout
+  - Resources: Includes `img/**` directory in site builds
+  - **Sidebar navigation** (docked, left side):
+    - Title: "RDewald.com" (styled in Carolina blue via CSS)
+    - Navigation: Home, Blog, Professional Articles (collapsible section), About
+    - Tools: GitHub and Substack icons with links
+  - **Navbar** (top, Carolina blue #7BA4D4):
+    - Shortened height (40px) for compact appearance
+    - Links: Home, Blog, About
+    - No title displayed (title in sidebar instead)
+  - **Footer** (three columns):
+    - Left: Credentials (Richard DeWald, PhD, RN)
+    - Center: Contact email
+    - Right: Copyright and Quarto attribution
+  - **Search**: Sidebar location with overlay type
+  - **Theme**: flatly (light mode)
+  - **Page layout**: article (changed from custom)
+  - **Date format**: "MMM YYYY"
+  - Language: English
+  - Open Graph enabled for social media sharing
+  - Site URL: https://rdewald.com
+  - Table of contents: disabled by default
+  - Execute: freeze auto (for caching)
+
+- `blog/_metadata.yml`: Blog-specific styling and navigation
+  - **Typography**: Georgia serif at 18px with 1.6 line-height
+  - **Colors**: Light gray background (#fafbfc), white content cards
+  - **Fake navbar**: Fixed position navbar for blog posts only
+    - Carolina blue background (#7BA4D4)
+    - Left: Home, Blog, About links (clickable, relative paths)
+    - Right: Bukowski quote
+    - Won't appear in emails (stripped by rant.R)
+  - **Headings**: Sans-serif for contrast with serif body text
+  - **Layout**: Max-width 1200px, centered, with padding
+  - Maintains `minimal: true` in individual blog post YAML for email compatibility
 
 ### Content Directories
 - `posts/`: Professional knowledge base articles (table listing on homepage)
@@ -107,10 +157,18 @@ renv::restore()
 
 ### Styling
 - `styles.css`: Custom CSS styles
-  - Base styles optimized for readability (24px font, comfortable line length)
-  - Blog-specific styles for informal feel (cards, rounded corners, softer colors)
+  - Base styles optimized for readability (24px base font)
+  - Content max-width: 1200px for optimal laptop viewing
+  - **Navbar styling**: Shortened height (40px), Carolina blue (#7BA4D4)
+  - **Sidebar branding**: "RDewald.com" injected via CSS in Carolina blue (#6699C2)
   - Professional content uses table layout
   - Blog content uses card layout with categories
+
+- `blog/_metadata.yml`: Blog-specific inline styles
+  - Georgia serif font at 18px for informal, readable feel
+  - White content cards on light gray background
+  - Fake navbar with clickable links (HTML injected via include-in-header)
+  - Email-safe: CSS and HTML navbar won't appear in rant.R emails
 
 ### Key Files
 - `index.qmd`: Homepage with professional articles listing
@@ -342,6 +400,19 @@ Rscript substack/subport.R blog/your-post.qmd
 - Images in `img/` directory are deployed via `resources` directive in _quarto.yml
 - No dynamic R code executes during website builds - all content is static
 - Blog posts with inline `<div>` styling will render on website but may need adjustment for email/Substack export
+
+### Design System
+- **Color scheme**: Carolina blue (#7BA4D4 for navbar, #6699C2 for branding)
+- **Typography**:
+  - Site-wide: System font stack at 24px base
+  - Blog posts: Georgia serif at 18px for readability
+- **Layout**:
+  - Sidebar navigation (docked, left)
+  - Top navbar (shortened to 40px)
+  - Content max-width: 1200px
+  - Blog posts: White cards on light gray background
+- **Theme**: Flatly (Bootswatch theme)
+- **Page layout**: Article (provides proper margins and structure with sidebar)
 
 ### Mailing List Management
 - `rantees.R` - Main mailing list (tracked in git)
