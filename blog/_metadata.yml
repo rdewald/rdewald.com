@@ -1,0 +1,56 @@
+format:
+  html:
+    include-in-header:
+      text: |
+        <style>
+        body {
+          background-color: #fafbfc;
+          font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+          font-size: 18px;
+          line-height: 1.6;
+          padding-top: 50px !important;
+        }
+        body > * {
+          max-width: 1200px;
+          margin-left: auto;
+          margin-right: auto;
+          padding-left: 3em;
+          padding-right: 3em;
+          background-color: #ffffff;
+        }
+        header#title-block-header {
+          padding-top: 2em;
+        }
+        /* Keep headings in sans-serif for contrast */
+        h1, h2, h3, h4, h5, h6 {
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        /* Fake navbar for blog posts */
+        #blog-fake-navbar {
+          position: fixed;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 40px;
+          background-color: #7BA4D4;
+          z-index: 1000;
+          padding: 0.5rem 1.25rem;
+          display: flex;
+          align-items: center;
+        }
+        #blog-fake-navbar a {
+          color: white;
+          text-decoration: none;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+          font-size: 16px;
+          margin-right: 1.5rem;
+        }
+        #blog-fake-navbar a:hover {
+          text-decoration: underline;
+        }
+        </style>
+        <div id="blog-fake-navbar">
+          <a href="../index.html">Home</a>
+          <a href="../blog.html">Blog</a>
+          <a href="../about.html">About</a>
+        </div>
