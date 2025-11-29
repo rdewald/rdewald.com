@@ -11,8 +11,6 @@ page-layout: article
 ---
 
 ::: {.blog-intro}
-This is where I write about things I'm thinking about, learning, or just want to share. Less formal than the professional stuff, more like notes from my ongoing work and life. Some of these get sent out as emails to folks who've asked to hear from me.
-
-If something here sparks a question or you want to chat about it, reach out.
+In November of 2025 I began to migrate to this website from [Substack](https://rdewald.substack.com/) for self-publishing online. This is where my writing will appear first, and I send these via email to interested readers as they are published. A free monthly digest of these posts is still distributed per usual to subscribers via [Substack](https://rdewald.substack.com/).
 :::
 
