@@ -37,6 +37,7 @@ format:
           padding: 0.5rem 1.25rem;
           display: flex;
           align-items: center;
+          justify-content: space-between;
         }
         #blog-fake-navbar a {
           color: white;
@@ -48,9 +49,19 @@ format:
         #blog-fake-navbar a:hover {
           text-decoration: underline;
         }
+        #blog-fake-navbar .navbar-right {
+          color: white;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+          font-size: 14px;
+        }
         </style>
         <div id="blog-fake-navbar">
-          <a href="../index.html">Home</a>
-          <a href="../blog.html">Blog</a>
-          <a href="../about.html">About</a>
+          <div>
+            <a href="../index.html">Home</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../about.html">About</a>
+          </div>
+          <div class="navbar-right">
+            "In my work, as a writer, I only photograph, in words, what I see." - Charles Bukowski
+          </div>
         </div>
