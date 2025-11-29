@@ -13,6 +13,12 @@ The site has two distinct content sections:
 - **Blog** (`blog/` directory) - Informal personal content with card-style layout, sent via email to subscribers using blastula
 
 ### Recent Additions (Nov 2025)
+- **Preprocessing scripts** (`preprocessing/`) - Bash scripts for image processing and banner generation
+  - `resize_image.sh` - Resize/compress images to max 800px wide using ImageMagick
+  - `create_footer_banner.sh` - Generate footer banners for monthly Substack roll-up posts
+- **Monthly roll-up workflow** - Template and banners for monthly digest posts to Substack
+  - `blog/_roll_your_own.qmd` - Draft template for monthly roll-up posts
+  - `blog/img/` - Footer banner images generated from blog posts
 - **Email distribution system** (`rant.R`) - Sends blog posts via blastula with ProtonMail SMTP
 - **Substack export** (`substack/subport.R`) - Converts blog posts to plain text for Substack composition panel
 - **Mailing list management** (`xforms/`) - Subscriber data analysis and list generation
@@ -21,6 +27,7 @@ The site has two distinct content sections:
   - Engagement scoring: opens + (clicks × 2) + (comments × 3) + (shares × 2)
 - **renv integration** - R package management for reproducible environment
 - **Image deployment** - Added `img/**` resources to _quarto.yml for proper image deployment
+- **Blog migration** - Updated blog.qmd to reflect migration from Substack to self-hosted site
 
 ## Build and Development Commands
 
@@ -83,7 +90,12 @@ renv::restore()
 ### Content Directories
 - `posts/`: Professional knowledge base articles (table listing on homepage)
 - `blog/`: Informal blog posts (card listing on blog.qmd page)
+  - `blog/img/` - Footer banner images for monthly roll-up posts
+  - `blog/_roll_your_own.qmd` - Draft template for monthly Substack digest
 - `img/`: Images and assets (deployed via resources in _quarto.yml)
+- `preprocessing/`: Image processing and banner generation scripts
+  - `resize_image.sh` - Resize/compress images to max 800px wide
+  - `create_footer_banner.sh` - Generate footer banners from .qmd files
 - `xforms/`: Data transformations and mailing list management
   - `subs-*.csv` - Substack subscriber exports (gitignored for privacy)
   - `create_lists.R` - Script to generate mailing lists from subscriber data
@@ -234,6 +246,57 @@ Subscriber breakdown:
 - Comp: 20 (21%)
 - Author: 1 (you)
 
+## Image Processing Scripts
+
+### Resizing Images (preprocessing/resize_image.sh)
+
+Resize and compress images to max 800px wide for web deployment:
+
+```bash
+./preprocessing/resize_image.sh /path/to/image.jpg
+```
+
+**Features:**
+- Resizes to maximum 800px width (maintains aspect ratio)
+- Only resizes if image is wider than 800px
+- Compresses with 85% quality for web optimization
+- Overwrites source file (ensure source images are archived elsewhere)
+- Uses ImageMagick's `convert` command
+
+### Creating Footer Banners (preprocessing/create_footer_banner.sh)
+
+Generate footer banners for monthly Substack roll-up posts:
+
+```bash
+./preprocessing/create_footer_banner.sh blog/your-post.qmd
+```
+
+**Features:**
+- Extracts title, description, and date from .qmd YAML front matter
+- Finds first image in .qmd file (supports both `<img>` tags and markdown images)
+- Creates 800x120px banner with:
+  - Square thumbnail (120x120) from first image on left
+  - Title, description, and "now on RDeWald.com/blog - published {date}" text on right
+  - 20px spacing between thumbnail and text
+  - Subtle gray border
+- Outputs to `blog/img/{filename}_footer.png`
+- Handles both remote URLs (downloads temporarily) and local file paths
+- Supports `<img>` tags with attributes in any order
+
+**Banner Layout:**
+```
+[Thumbnail]  [Title (24pt bold)]
+[120x120]    [Description (16pt)]
+             [now on RDeWald.com/blog - published {date} (14pt italic)]
+```
+
+**Monthly Roll-Up Workflow:**
+1. Write blog posts throughout the month
+2. Generate footer banner for each post: `./preprocessing/create_footer_banner.sh blog/post.qmd`
+3. Edit `blog/_roll_your_own.qmd` draft template
+4. Stack footer banners vertically in the monthly digest
+5. Export to Substack using `substack/subport.R` or copy/paste manually
+
 ## Exporting Blog Posts to Substack
 
 ### Using substack/subport.R
@@ -285,3 +348,17 @@ Rscript substack/subport.R blog/your-post.qmd
 - `xforms/paid2rant.R` - Non-free + upgrade candidates (gitignored)
 - `xforms/high_engagement.R` - Top 25 engaged (gitignored)
 - Generated lists are gitignored for privacy; regenerate from `xforms/subs-nov2025.csv` using `xforms/create_lists.R`
+
+### Image Processing Requirements
+- ImageMagick must be installed for preprocessing scripts to work
+- Install on Ubuntu/Debian: `sudo apt-get install imagemagick`
+- Both scripts are executable bash scripts in `preprocessing/` directory
+- Footer banner script requires: DejaVu-Sans fonts (usually pre-installed on Linux)
+- Source images should be archived elsewhere before running `resize_image.sh` (overwrites originals)
+
+### Blog Migration Notes
+- Site migrated from Substack to self-hosted in November 2025
+- New posts appear first on RDeWald.com/blog
+- Email distribution via blastula to interested readers
+- Monthly digest still distributed to Substack subscribers
+- Footer banners used in monthly roll-up posts for visual consistency
