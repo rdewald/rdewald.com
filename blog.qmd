@@ -1,5 +1,5 @@
 ---
-title: "The Blog"
+title: "Richard's Rants: the blog"
 listing:
   contents: blog
   sort: "date desc"
@@ -11,6 +11,6 @@ page-layout: article
 ---
 
 ::: {.blog-intro}
-In November of 2025 I began to migrate to this website from [Substack](https://rdewald.substack.com/) for self-publishing online. This is where my writing will appear first, and I send these via email to interested readers as they are published. A free monthly digest of these posts is still distributed per usual to subscribers via [Substack](https://rdewald.substack.com/).
+At the end of November of 2025 I migrated to this website for self-publishing online. Going forward, this is where my writing will appear first. I send newly published posts  via automated email to interested readers upon request. A free monthly digest of these posts is available for free via [Substack](https://rdewald.substack.com/).
 :::
 
