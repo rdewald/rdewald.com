@@ -10,7 +10,6 @@ format:
     standalone: false
     self-contained: false
     embed-resources: false
-draft: true
 ---
 
 <a title="TimeBusinessNews, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:AIAP_IFGICT_Artificial_Intelligence_Auditor_Professional_Certificate.jpg"><img width="1024" alt="AIAP IFGICT Artificial Intelligence Auditor Professional Certificate" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/AIAP_IFGICT_Artificial_Intelligence_Auditor_Professional_Certificate.jpg/1024px-AIAP_IFGICT_Artificial_Intelligence_Auditor_Professional_Certificate.jpg?20240805171414"></a>
