@@ -62,7 +62,7 @@ website:
       <br>
       Copyright © 2025 Richard DeWald<br>
       This website was created with
-      [![](/img/banner.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
+      [![](/img/Quarto_Publishing_Logo.png){fig-alt="Quarto" width=65px}](https://quarto.org)<br>
 
 format:
   html:
