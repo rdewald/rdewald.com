@@ -66,8 +66,8 @@ main.content,
 .column-body,
 article {
   max-width: 1024px;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /* Ensure blog posts have proper margins */
