@@ -11,11 +11,11 @@ format:
           padding-top: 50px !important;
         }
         body > * {
-          max-width: 1200px;
-          margin-left: auto;
+          max-width: 1024px;
+          margin-left: 5px;
           margin-right: auto;
-          padding-left: 3em;
-          padding-right: 3em;
+          padding-left: 1em;
+          padding-right: 1em;
           background-color: #ffffff;
         }
         header#title-block-header {
