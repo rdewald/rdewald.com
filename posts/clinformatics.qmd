@@ -1,5 +1,5 @@
 ---
-title: "What is Clinical Informatics? What Makes It End-of-Life?"
+title: "What is Clinical Informatics?"
 date: last-modified
 description: ""
 ---

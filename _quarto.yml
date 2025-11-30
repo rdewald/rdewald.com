@@ -40,7 +40,7 @@ website:
         href: index.qmd
       - text: "Blog"
         href: blog.qmd
-      - section: "Professional Articles"
+      - section: "For Patients & Families"
         contents:
           - text: "Clinical Informatics"
             href: posts/clinformatics.qmd

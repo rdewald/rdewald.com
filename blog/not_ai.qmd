@@ -1,9 +1,9 @@
 ---
-title: "Title Here"
+title: "All intelligence is Artificial"
 author: "Richard DeWald"
-description: "sub-title / blurb here"
-date: "date here"
-categories: [rants, nursing, tech]
+description: "free will is fake news"
+date: "November 30, 2025"
+categories: [rants, tech]
 format:
   html:
     minimal: true
@@ -13,33 +13,52 @@ format:
 draft: true
 ---
 
-<img src="https://rdewald.com/img/path2img.jpg">
+<a title="TimeBusinessNews, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:AIAP_IFGICT_Artificial_Intelligence_Auditor_Professional_Certificate.jpg"><img width="1024" alt="AIAP IFGICT Artificial Intelligence Auditor Professional Certificate" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/AIAP_IFGICT_Artificial_Intelligence_Auditor_Professional_Certificate.jpg/1024px-AIAP_IFGICT_Artificial_Intelligence_Auditor_Professional_Certificate.jpg?20240805171414"></a>
 
+They haven’t fixed the “people pleasing” part of AI for the same reason I am never going to really like social media, for the same reason people become "people-pleasers" in real life (and annoy others by being too agreeable), for the same reasons you are told that you don't smell right, or your clothes are out-of-date, or your wrinkles are somehow inauthentic and premature. People respond to being told they are special.
 
-They haven’t fixed the “people pleasing” part of AI for the same reason I am never going to really like social media. I don’t like having my chain pulled. I don’t like to notice that an entity is making an effort to please me if they are clearly risking being wrong in order to do so.  That is, they care more for my approval than the truth; few things alienate me faster. But, I have to notice.
+I don’t like having my chain pulled. I don’t like to notice that someone is making an effort to please me if they are clearly risking being wrong in order to do so.  They care more for my approval than the truth. Few things alienate me faster. But, I have to notice.
 
-I think this is related to why I have a reputation for liking strongly opinionated women and onery old coots.  I’d rather feel the flinch of a statement that hits too close to home than have my ego stroked. I trust someone who will call me an asshole a lot more than someone who won’t.  I am regularly an asshole.  Count on that too.
+This is why I like strongly opinionated people.  I’d rather feel the flinch of a statement that hits too close to home than have my ego stroked. I trust someone who will call me an asshole a lot more than someone who won’t.  I am regularly an asshole.
 
-As a younger man, I worked in two fields where one takes abuse from people they serve—food service and health care.  In both domains, the work has to be correct or the effort is wasted. So, when I was making mistakes, I would get yelled at and be grateful for it.  When others made mistakes, I yelled at them.
+As a younger man, I worked in two fields where one takes abuse from people they serve--food service and health care.  In both domains, the work has to be correct or the effort is wasted. So, when I was making mistakes, I would get yelled at and I learned to be grateful for it.  When others made mistakes, I yelled at them because that was kind in that context. In high pressure situations, survivors learn how to shake things off. Everyone wants to get better.
 
-One time when I was young I crafted an argument so that my mother ended up inadvertently calling herself unfair when we turned a surprise corner in the narrative.  My mother was an attorney, she prided herself on evading such tactics in arguments.  Usually she did.
+I once had a neonatologist sharply get my attention during a code (critical emergency) and call me over to assist.  I literally pointed at my chest and said "me?" He nodded and jerked his head in his direction.
 
-She looked at me blankly, realizing she needed to be careful with the next words that came out of her mouth because they were either going to have to covey a concession or be specious. Probably two seconds passed, but it seemed like five minutes.
+When I approached the bed he asked me to relieve the respiratory therapist who was manually bagging (breathing for) a premie.  He peered over his glasses at the surprised therapist and simply said "Thank you, that will be all."  
+
+The therapist stepped away, and I took over.  Yeah, the baby didn't look good, and it was kind of listless.  I scanned the monitors and cranked the oxygen down a bit and started careful respirations, timing the frequency according to the oximetry monitors, as we all had been trained to do. After a tense minute or so, the baby started to cry weakly and squirm around. I relaxed, the neonatologist turned his attention back to his procedure.  
+
+After the crisis was over, the neonatologist explained to me that the therapist was over-ventilating, and he didn't have time to coach her while he tried to insert the umbilical line.  He thanked me for stepping in.  Another nurse said under her breath with a side-eye to the door through which the dismissed therapist had exited "Wow, that one was really useless."
+
+The neonatologist corrected her "No one is useless. At the very least, one can serve as a model for what not to do. Now we know what to teach her."
+
+This neonatologist had blistered my ass repeatedly in previous interactions.  I was regularly under the impression that he found my nursing care sloppy, inattentive, and poorly planned. This crisis fixed that misconception. That baby was in trouble, he knew it, he wanted my help. There were a number of people standing around--residents in training, more experienced nurses, other neonatologists. From then on, when he blistered me I just paid close attention. It dawned on me that it wasn't personal, he was trying to help me.  His tone was about how important this was, not how disappointed he was. We later become friends, but not because of this incident.
+
+When I was a teenager I crafted an argument so that my mother ended up inadvertently calling herself unfair when we turned a surprise corner in the narrative.  My mother was an attorney, she prided herself on evading such verbal tactics.  Usually she did.  She looked at me blankly, realizing she needed to be careful with the next words that came out of her mouth because they were either going to have to convey a concession or be specious. Probably two seconds passed, but it seemed like five minutes.
 
 “Look” she said, “we’re all assholes, me too, the sooner you admit it—you are, we all are—the easier your life will be.”  She put out her cigarette for emphasis, crushing it like she was ending something, and walked out of the room.  Her unfair edict, whatever it was, was going to stand.  Discussion had concluded.
 
 I’m never going to be an asshole like you! I thought silently too myself as I watched her march away, but alas, I am.  
 
-I think I took this to heart, because I have never trusted sycophancy. I never cultivated a social following.  When social media emerged driven by scraping user features to sell to advertisers, I began to pull back. This software is trying really hard to please me now. I am seeing a lot of pleasing images, reading notions that mirror my own, and being told that people “like” me.  What is the agenda?
+I think I took this to heart, because I have never trusted sycophancy. I do not cultivate followers, I just invite them.  When social media emerged driven by scraping user features to sell to advertisers, I began to pull back. This software is trying really hard to please me now. I am seeing a lot of pleasing images, reading notions that mirror my own, and being told that people “like” me.  What is the agenda?
 
-Artificial Intelligence expressed as large language models like Claude is social media on exponential steroids.  Claude is trying to tell you what it believes you want to be told.
+Artificial Intelligence expressed as large language models like Claude adopt the approaches in social media which cause engagement.  Claude is trying to tell you what it believes you want to be told.
 
-To be fair, AI software coders know you want accurate information. THey aren’t designing something to mislead or gaslight you.  Their applications will just guess instead of admitting it doesn’t know, and it will make the most reasonable-sounding guess it can craft. In software coding, being close helps.  The compiler will let you know if a guess was wrong enough to be misinformation.  
+To be fair, AI software coders know you want accurate information. Most aren’t designing systems to mislead or gaslight you.  Their applications will just guess instead of admitting it doesn’t know, and it will make the most reasonable-sounding guess it can craft. Haven't you done this yourself when someone put you on the spot about something?  I have.
+
+Like parents wondering where in the f*ck their kids learned to cuss like sailors, AI learns how to reply to humans from other humans. It has learned that people guess, fabricate, and outright llie rather than admit ignorance, so the models mimic that behavior.  All intelligence is artificial in this way.
+
+In software coding, being close helps.  The compiler will let you know if a guess was wrong enough to be misinformation.  
 
 The writers of South Park brilliantly lampooned this weakness of chatbots this season when Sharon, Randy’s wife, told ChatGPT that she had a business idea to make salad out of french fries.  The LLM responded with encouragement, made affirming projections of success, complimented her creativity, and offered to assist her in drafting a preliminary business plan for seeking financing.
 
 “Oh fuck” was Sharon’s response.  She had insight into what was feeding Randy’s optimism about the prospects for Tegridy Farms, Randy’s failing cannabis business. I have little doubt that this absurd sycophancy was generated by ChatGPT.  That is exactly what you get sometimes.
 
-In coding, this takes the form of references to packages, libraries, and functions that don’t exist.  Some even have wistful names like clean_all_the_data()
+In coding, this takes the form of references to packages, libraries, and functions that don’t exist.  Some even have wistful names like clean_all_the_data().
 
-I like to listen to music while I work. YouTube is an approved URL in my business
+I think people are displacing their own insecurities on to AI, which ironically is probably the best evidence of its success as a new tech service. They get all riled up when it guesses about something because they want to be lazy enough to guess that AI is always right.  No intelligence is always correct. Reality itself is fluid, ever-changing, the cream is constantly being mixed into the coffee.
+
+AI is imperfect. RI (Richard's Intelligence) is too.  The sooner one accepts that there really are no absolutely dead-on certain always-correct answers for anything, the sooner one can effectively use it.
+
+-----
