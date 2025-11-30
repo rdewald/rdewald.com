@@ -65,18 +65,18 @@ main.content,
 .page-columns,
 .column-body,
 article {
-  max-width: 1200px;
+  max-width: 1024px;
   padding-left: 2em;
   padding-right: 2em;
 }
 
 /* Ensure blog posts have proper margins */
 .quarto-post {
-  max-width: 1200px;
-  margin-left: auto;
+  max-width: 1024px;
+  margin-left: 5px;
   margin-right: auto;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 /* Headings - clear hierarchy */
@@ -137,16 +137,16 @@ th, td {
 .blog-intro {
   background-color: #f8f9fa;
   border-left: 4px solid #6c757d;
-  padding: 1.5em;
+  padding: 1em;
   margin: 2em 0;
-  font-size: 1.1rem;
-  line-height: 1.6;
+  font-size: 1rem;
+  line-height: 1.2;
   color: #495057;
 }
 
 /* Blog post content styling */
 body[data-quarto-source-path*="blog/"] {
-  background-color: #fafbfc;
+  background-color: #ffffff;
 }
 
 body[data-quarto-source-path*="blog/"] #quarto-content,
