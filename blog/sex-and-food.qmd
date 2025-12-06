@@ -1,34 +1,69 @@
 ---
-title: "Title Here"
+title: "on the wisdom of pigeons"
 author: "Richard DeWald"
-description: "sub-title / blurb here"
-date: "date here"
-categories: [rants, nursing, tech]
+description: "can I have a bite of that hot dog?"
+date: "December 6, 2025"
+categories: [rants, self-inquiry]
 format:
   html:
     minimal: true
     standalone: false
     self-contained: false
     embed-resources: false
-draft: true
 ---
 
-<img src="https://rdewald.com/img/path2img.jpg">
+<img src="https://rdewald.com/img/pigeon_statue.jpg">
 
 
-When I moved to Brooklyn in 1999 I was across the street from a small triangular City park, which in addition to being bordered by apartments on my side, was flanked by a diner, Chinese take-out, and a pizza place on another side, with an elevated segment of the Brooklyn-Queens Expressway forming the hypotenuse.  The proximity to the BQE made it unpopular with families with small children, so it mainly was visited by those eating on a bench, the un-housed, and people walking dogs.
+When I moved to Brooklyn in 1999 I was across the street from a small triangular City park, which in addition to being bordered by apartments on my side, was flanked by a diner, Chinese take-out, and a pizza place on another side, with an elevated segment of the Brooklyn-Queens Expressway forming the hypotenuse.  The proximity to the BQE made it unpopular with families with small children, so it mainly was visited by those eating on a bench, those living rough (on the street), and people walking dogs.
 
 There were a lot of pigeons.  As I was a recent arrival from Texas, I was unfamiliar with pigeons, or any kind of bird that would hang comfortably close to humans.  I began to study them. They ultimately weren’t very interesting. Every moment of their lives is oriented to pursuit of food or sex.  Upon reflection, even then, this was as unsatisfying a realization as it was unsurprising.
 
-I suppose I wanted a noble purpose for the pigeon, but perhaps it was already right in front of me.  One of my zen teachers used to say “rabbits are how sunlight becomes protein for foxes.” There wouldn’t be pigeons if pigeons didn’t prioritize eating and breeding.  What could be nobler than chasing food and sex for a pigeon? Would I know?
+I suppose I wanted a noble purpose for the pigeon, but perhaps it was already right in front of me.  One of my zen teachers used to say “bunny-rabbits are how sunlight becomes protein for foxes.” There wouldn’t be pigeons if pigeons didn’t prioritize eating and breeding. What could be nobler than chasing food and sex for a pigeon? Would I know?
 
 Natural selection operates for the benefit of DNA, not for the life forms which carry and reproduce it.  Consequently, once the life form reaches sexual maturity, DNA could give a f*ck about improving anything else for it. After we are physically able to reproduce, we’re on our own as far as evolution is concerned. 
 
-Every inborn, uncultivated bias that we have, from what tastes good, to what feels good, to what is rewarding, all boils down to incentivizing sexual reproduction. Other biases require mental effort.  Sexual arousal and interest is built-in.
+Every inborn, uncultivated bias that we have, from what tastes good, to what feels good, to what is rewarding, all boils down to encouraging sexual reproduction. Other biases require mental effort.  Sexual arousal and interest is built-in.
 
 We build elaborate social contracts around sexual behavior with very high stakes.  One can win in a big way (Sidney Sweeney) or one can lose in a big way (Epstein).  Much depends on the choices one makes navigating those social contracts in pursuit of sex. 
 
-However, as a thought experiment, if you strip everything away from those narratives to an admittedly absurd level of reductionist analysis, beyond conscious choice to inborn bias, there’s a single motive, like with the pigeons—incentivizing reproduction.  
+However, as a thought experiment, if you strip everything away from those narratives to an admittedly absurd level of reductionist analysis, beyond conscious choice to inborn bias, there’s a single motive, like with the pigeons: reproduction. Ends do not justify means, but they can provide insight into the singularity of some forms of power. Sexually powerfully people hold existence itself within their power, or at least they’re messing with it. 
 
-Ends do not justify means, but they can provide insight into the singularity of some forms of power. Sexually powerfully people hold existence itself within their power, or at least they’re messing with it. It isn’t that surprising to me that Sydney Sweeney made a fuss, whether or not she meant to.
+<a title="Toglenn, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Sydney_Sweeney_2019_by_Glenn_Francis.jpg"><img width="256" alt="Sydney Sweeney in Hollywood California - June-July 2019" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Sydney_Sweeney_2019_by_Glenn_Francis.jpg/256px-Sydney_Sweeney_2019_by_Glenn_Francis.jpg?20190826120314"></a>
+
+It isn’t that surprising to me that Sydney Sweeney (pictured) made a fuss, whether or not she meant to.  Similarly, Jeffery Epstein was able to get men who had achieved the pinnacles of modern power to do things well outside the norms of civil behavior, or at least tolerate proximity to it, because he offered generous donations to charity as a way to launder both money and his reputation. To a smaller, more exclusive group, he offered access to unique sexual experiences they otherwise could not navigate alone.
+
+Think about that. Jefferey Epstein appeared to be, among others, Prince Andrew's, Alan Dershowitz's, and Larry Summer's ticket to sexual gratification.  That is a lot of power to wield, and these three notable power brokers were just the tip, baby, just the tip of the iceberg. Like the pigeons, Epstein kept his eye on the prize.
+
+Food is similar to sex.  We have inborn biases about what tastes good, what smells good, what looks good.  All of these biases are oriented to survival and reproduction.  Food is fuel for survival and reproduction.  Without food, we can’t survive long enough to reproduce.  Without food, we can’t produce healthy offspring.  
+
+Food is a social contract.  We share food with those we care about, and we use food to show care and affection.  
+
+We also use food to assert power and control.  Food can be a weapon, a tool, or a reward.  Food can be a source of pleasure or pain.  Food can be a source of identity or alienation.  Food can be a source of comfort or discomfort.  
+
+Food can be a source of life or death.  Food can be a source of joy or sorrow.  Food can be a source of health or illness.  Food can be a source of connection or disconnection.  Food can be a source of meaning or meaninglessness.  Food can be a source of hope or despair.  Food can be a source of love or hate.  Food can be a source of freedom or oppression. There is enough food on planet earth to feed everyone. Today. It simply isn't in the right place for hungry people to eat it before it rots. 
+
+We deliberately artificially create a system that both causes millions of people to go hungry every day and also causes the food that could feed them to rot.  Children die of malnutrition. Families are torn apart by hunger. Communities are destroyed by hunger. Nations are destabilized by hunger. The world is divided by hunger. Humanity is diminished by hunger.  
+
+We do all this so that a few people can make more money selling food to those who can afford to pay. It is a system that is fundamentally unjust and immoral. It should be destroyed, torn to shreds like the pigeons will destroy a discarded bag containing a half-eaten sandwich.
+
+We could take a lesson from the pigeons.
+
+Sex and food are both necessary for survival and reproduction.  They are both powerful motivators.  They are both sources of pleasure and pain.  They are both sources of connection and disconnection.  They are both sources of meaning and meaninglessness.  They are both sources of hope and despair.  They are both sources of love and hate.  They are both sources of freedom and oppression.  
+
+The pigeons know this.  Why don't we?
+
+I am so weary of the models we use to discuss national policy.  I think government should be obsessed with seeing that the governed have four things: food, shelter, medicine, and clothing (i.e., minimal public dignity).  Beyond that, national government should provide for public order and serve as a archive for open information exchange.  Once these things are done (and they're not being done currently, and haven't been done consistently in my lifetime), government should get out of the way and let people pursue their own happiness, however they define it, as long as they don't harm others to make themselves happy.
+
+Am I a crazy AOC-Bernie liberal?  That's for you to decide.  Bernie and I have significant disagreement on gun policy and I think AOC advocates for social engineering via incentives and disincentives that I think are better left to smaller tribes of people who wield less national authority, which makes me sound like a libertarian. I think the energy expended on progressive initiatives would be better spent on more fundamental forms of social justice first: enforcing the laws we have, making those laws better, and holding people to account for violating them, which makes me sound like a Republican.
+
+Curtis Sliwa, the Republican candidate for New York City mayor, recently said in an interview when asked about Mandami's free public transit plans "I think we should collect the fares we charge now first."  My jaw hit the floor.  I agree with him.  Fare enforcement is a form of social justice that is overlooked.  Justice does truly need to be blind.  On the other hand, making the bus and subways free would solve the problem of fare-evasion, but it wouldn't solve the problems which cause people to evade fares in the first place--not having enough food, shelter, clothing, and medicine. 
+
+People with enough follow the rules. 
+
+Those who have enough and still don't follow the rules can be dealt with, once they are removed from power. 
+
+The pigeons have it right.  Eat.  Mate.  Survive.  Repeat.
+
+-----
 
