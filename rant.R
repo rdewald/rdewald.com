@@ -9,7 +9,7 @@ if (length(args) == 0) {
 }
 
 blog_post <- args[1]
-yaml_content <- rmarkdown::yaml_front_matter(blog_post)
+yaml_content <- rmarkdown::yaml_front_matter(here(blog_post))
 
 system(paste("quarto render", blog_post, "--to html --quiet"))
 
@@ -57,3 +57,4 @@ smtp_send(
 )
 
 cat("Sent\n")
+cat("Completed at:", as.character(Sys.time()), "\n")
