@@ -10,7 +10,6 @@ format:
     standalone: false
     self-contained: false
     embed-resources: false
-draft: true
 ---
 
 <img src="https://rdewald.com/blog/img/xmas.jpg">
@@ -43,11 +42,11 @@ Why?  It isn't that I hate Christmas, I like working on Christmas.  It is a fun 
 
 In data science, I can work without interruption, which means I can dive into rabbit holes which are otherwise are wiser to eschew.  I love Christmas, it is the best day of the year to be at work!
 
-I am fearful for the future, as the entire world is, because of the unhinged maniac who is President.  We will soon be looking back on these days as when he more or less stil had it together.  The Epstein files are due to be released today, whatever that means.  It would be very surprising if anything is released that the orange grinch can't survive.  They spent months and millions of our dollars to scrub them clean.
+I am fearful for the future, as the entire world is, because of the unhinged maniac who is President.  We will soon be looking back on these days as when he still had it together.  The Epstein files are due to be "released" today, whatever that means.  It would be very surprising if anything is released that the orange grinch can't survive.  They spent months and millions of our dollars to scrub them clean.
 
 I once talked with a crime scene investigator who also likes to work on Christmas (crimes of passion are typically easy to solve). She told me that when she walked into a crime scene where there were obvious signs that things had been cleaned up she knew that this was going to take a while.
 
-I leave you with that observation for today's "release," whatever that means.
+I leave you with that observation for today's "release."
 
 In Buddhism it is common to posit the thought experiment that someone with open eyes would celebrate a loved one's death and mourn any birth.  Death means suffering is over, birth means it has just begun.  This observation is leveraged to show how social influences can turn black to white.
 
