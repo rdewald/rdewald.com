@@ -1,0 +1,56 @@
+---
+title: "Gee Whiz, Its Christmas"
+author: "Richard DeWald"
+description: "is that an orange grinch?"
+date: "December 19, 2025"
+categories: [self-inquiry]
+format:
+  html:
+    minimal: true
+    standalone: false
+    self-contained: false
+    embed-resources: false
+draft: true
+---
+
+<img src="https://rdewald.com/blog/img/xmas.jpg">
+
+Loyal readers will note that this time last year I was pondering leaving the country until my comrade-in-arts Andrei Codrescu rescued me from my cruel optimism.  That does seem like a long time ago.  
+
+Perhaps you wonder what Christmas is like for a white Boomer who marches to a different drummer.  I am not a Christian in any sense which Christian authorities recognize, but I don't talk about that much.  It isn't anyone's business but my own.  The Soto sect of Zen Buddhism does recognize my membership, but the first advice my teacher gave me after my ceremony was "you can call yourself a Buddhist now, but I don't recommend it."
+
+It isn't a good practice because it is ego decoration.  Our Faith asserts that the ego is a distraction of thinking at best.
+
+Having said that, I practice the ethics expressed in the scripture of the Christian church as any true believer would. I like Christians who similarly live their lives. I enjoy Christian church services, from primative Baptist snake-handling to High Mass at St. Peter's.  By comparison, zen services are kind of grim because they are an acknowledgment of the struggle that is central to existence.
+
+Zen doesn't have a holiday like Christmas.  The closest we come in the northern hemisphere is called Rohatsu by my congregation, it is an adaptation of the human tradition of autumn harvest festivals, meant to stock the temples with supplies (donations) for the coming winter.  We celebrate a story about the Buddha's stubborn refusal to give up meditation until he found his answers.  He sat under a three for eight days, one version of the story goes, so we pay homage by a rigorous multi-day meditation retreat.
+
+I think the idea is that the community will be so impressed by our devotion that they will give up the cash at the donation plate.  That probably worked in historical Japan, where this particular version of this holiday in my life came from.  It has persisted over the centuries because it is a bit like a meditation marathon, i.e., something one does to have done it. Like running a marathon, one does come away from it ultimately grateful for the experience.  The memories of the struggle during it fade under the elation of it's completion.
+
+I don't hate gift-giving, though I eschew it's excesses. I give gifts throughout the year when doing so has meaning for me.  I want to show up for my loved ones.  There are some loved ones for whom showing up means a gift at Christmas. They are children. For adult loved ones I mostly send my good wishes, acknowledge another year of friendship has passed, and/or show up myself in person somewhere at an appropriate time.
+
+This means that for years I have had to confront, annually, the proverbial problem of what to do when someone gives me a gift whom I did not give a gift myself.  I smile and say "thank you," perhaps figuratively (phone call, text, email, etc), but I've come to the conclusion that it is kind of an insult to the other person to presume that they are expecting a gift in exchange. That flies in the face of the meaning of Christmas.  Jesus would be sad.
+
+I'm not going to make Jesus sad at Christmas.  It's his birthday, dammit. I'm going to be on my best behavior, no matter how much of an asshole the devil tells me I am for not re-gifting something to make things even.
+
+Not one of these people who gave me gifts has ever expressed any concern for my empty hands, or failed to give me another gift the next year if that was their habit.  Over the years, I ma able to enjoy the people in my life at Christmas without keeping score at Amazon.  It's my own little Christmas miracle.
+
+I realize I enjoy a unusual freedom to act this way because I am a single, never-married, childless, only child with dead parents.  My parents did have siblings, but we aren't close.  I have half-nephews and half-nieces with their own children and grandchildren, but the marriage that produced them was over (and badly broken) before I was born.  Getting together as I was growing up was always awkward, no matter how heartfelt the desire to connect was.
+
+As a young man, even as a teenager, I coped with the holidays by working when that was an option.  In health care and food service, that is always an option.  I have worked every Thanksgiving and Christmas I could. I worked on Christmas last year.  I would do so this year if I didn't have a loved one I want to physically show up for this year.
+
+Why?  It isn't that I hate Christmas, I like working on Christmas.  It is a fun day to be at work.  In food service, the tips are awesome, the people are fun, coworkers are grateful they can be home.  In health care, nothing ever happens except emergencies, and then you can respond to emergencies like you'd actually want to during the year.  Things are otherwise so slow that you can really focus on doing your thing for someone in need. Forgive my French, but that's fucken fun.  And there's always food.  Everywhere.
+
+In data science, I can work without interruption, which means I can dive into rabbit holes which are otherwise are wiser to eschew.  I love Christmas, it is the best day of the year to be at work!
+
+I am fearful for the future, as the entire world is, because of the unhinged maniac who is President.  We will soon be looking back on these days as when he more or less stil had it together.  The Epstein files are due to be released today, whatever that means.  It would be very surprising if anything is released that the orange grinch can't survive.  They spent months and millions of our dollars to scrub them clean.
+
+I once talked with a crime scene investigator who also likes to work on Christmas (crimes of passion are typically easy to solve). She told me that when she walked into a crime scene where there were obvious signs that things had been cleaned up she knew that this was going to take a while.
+
+I leave you with that observation for today's "release," whatever that means.
+
+In Buddhism it is common to posit the thought experiment that someone with open eyes would celebrate a loved one's death and mourn any birth.  Death means suffering is over, birth means it has just begun.  This observation is leveraged to show how social influences can turn black to white.
+
+Enjoy the holidays. Let them be.
+
+-----
