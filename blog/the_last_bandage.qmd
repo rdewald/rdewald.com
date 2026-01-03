@@ -11,7 +11,7 @@ format:
     embed-resources: false
 ---
 
-<a title="Jacek Halicki, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:2023_Opaski_Hartmann_P%C3%BCtterbinde.jpg"><img width="512" alt="Hartmann Pütterbinde bandages" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/2023_Opaski_Hartmann_P%C3%BCtterbinde.jpg/512px-2023_Opaski_Hartmann_P%C3%BCtterbinde.jpg?20230402202031"></a>
+<img src="https://rdewald.com/img/bandage.jpg">
 
 This morning, before my shower, I began my ritual of protecting the bandage on my left foot from getting wet while I shower. My vascular surgical people recommend that I wear compression stockings to hasten healing, so frankly, I haven't seen much of my left foot in the last eighty days.  I only see it for the ten minutes or so that it takes to change the dressing and apply the various wound care voodoo creams before I pull on thick ambulatory compression stockings which remian in place until the next dressing change.
 
