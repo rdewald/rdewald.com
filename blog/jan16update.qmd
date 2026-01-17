@@ -1,0 +1,43 @@
+---
+title: "Still Here"
+author: "Richard DeWald"
+description: "sub-title / blurb here"
+date: "January 16, 2026"
+categories: [rants, tech]
+format:
+  html:
+    minimal: true
+    standalone: false
+    self-contained: false
+    embed-resources: false
+---
+
+<img src="https://rdewald.com/img/city_lights.jpg">
+
+Pardon me for taking so long to be back in touch.  For once, it isn't because I have been occupied with my maladies; I've been busy because I have made a couple of important breakthroughs at work that have shot me ahead in my estimated timeline to completion of my 2026 goals by at least six months.  
+
+It will be important that my production code be easy to continue to use when I leave this job. My important work is much closer to that ideal now. I have been putting in a lot of time lately proving to myself that my suppositions are correct by watching code compile while listening to [WCRB](https://www.classicalwcrb.org/).  I have been able to work without interruptions these days owing to a unique combination of events, a luxury for me.
+
+My best ideas have been coming to me lately while watching TV, or reclining on my bed.  I even had one proverbial realization in the shower.  I had notions while washing dishes, sorting my laundry, and on the train.  Had I been socially engaged with a family, or roommates, or even by going into work every day, I might not have carried these notions from my head on to paper so effectively, so to speak.  There is a time for every season, and I've been in a season of joyful solitude, immersed in the netherworld of technology.
+
+I kept in touch with the outside world via [Heather's Letters](https://heathercoxrichardson.substack.com/), [Ellie Leonard](https://ellieleonard.substack.com/)'s video takes, (both of which are free, don't pay unless you specifically want to donate money for your own reasons), as well as [Stephen Colbert](https://www.youtube.com/@ColbertLateShow)'s, [Jimmy Kimmel](https://www.youtube.com/@JimmyKimmelLive)'s, and [Jimmy Fallon](https://www.youtube.com/@fallontonight)'s (yes, the are different people) opening monologues on YouTube. That was enough to make me conversant with the outside world.
+
+I am shocked by the accelerating ascension of fascism in this country, but not surprised by it.  I think [Leni Reifenstahl](https://en.wikipedia.org/wiki/Leni_Riefenstahl)'s life offers a useful study.  Her films were beautiful, they still are, and she was a malignant narcissist who enabled tragic mass deception.  She tried to redeem herself late in life with equally gorgeous films about rural African tribes, but they still had a tone of "it takes someone like me to show you this."  She never gave up the idea that her way of life, and background, and views were self-evidently superior to competing notions.  High-end perfume and underwear companies ape her style to this very day. I like their commercials too. Give me Sidney Sweeny jeans ads any day that ends in a "y."  Like Leni, she's politically unpalatable, but I digress.
+
+I do believe Ms. Reifenstahl was traumatized by her association with Hitler and she reacted to trauma as many do, by burying it underneath retrospective "alternative facts" about one's life and motivations.  When I do this, I don't experience it as deception, I see it as a deeper understanding, a connection to "why" bad things happen to me.  Other people see it as self-deception.  This is one of the many reasons it is none of your business what other people think of you.  There's no right way to process trauma.  There's only your way.
+
+We are all being traumatized right now.  I have a deeply personal connection to Minneapolis, my church is there, and I instantly recognized the address of Renee Good's murder--34th and Portland.  I know where that is, a bit north northeast and on the other side of I-35 from my [home away from home](https://www.dharmafield.org/) at 49th and Xerxes.  It would be a good walk, about four miles, but a fair portion of that would be along the shore of Lake Harriet, which is a plus.  I could get there from Dharma Field in a car, with stuffed animals in the glove compartment, in about 15 minutes.
+
+I am shocked, but not surprised by this.  I won't insult us by explaining why. I know and love a number of mouthy women like the late Ms. Good and her partner; they are the very moral fiber of this country. When you arm and conceal the identities of weak men seeking jobs to be cruel, they will murder strongly opinionated mouthy women as surely as night follows day.
+
+It is still shocking, though.  We are all traumatized by the lawless thuggery of ICE.  We are all traumatized by the doubling-down of support for shooting women just because they are mouthy to their own employees. We are all traumatized by the piracy in the Gulf of Mexico.  We are all traumatized by the kidnapping, the open boastful corruption, the theft, and the intentional infliction of state cruelty upon those resist fascist tyranny.  
+
+Let's not deceive ourselves with "alternative facts."
+
+It is the 1770's, or the 1850's, or the 1940's, all over again.  There's a future historian in elementary school right now who will write their dissertation on "Why does fascism rise in America every eighty years?"
+
+Americans, those actually invested in the ideals of this human experiment (~70% of us), know what to do.  The fascists in our midst will claim our resistance is anti-American, disrespectful, unlawful and really about hate, or greed, or ill will. That's not new. That's projection. Let them. 
+
+Keep resisting.
+
+-----
